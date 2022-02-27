@@ -1,0 +1,118 @@
+
+/* Custom font and color*/
+body {
+  background-color: rgb(247, 225, 202);
+  color: rgb(30, 30,30);
+  font-family: Arial;
+  text-align: center;
+}
+h2, h3 {
+   font-family: Times New Roman;
+   text-align: center;
+}
+
+h1 {
+   color: rgb(12, 35, 150);
+   font-family: 'Anton', sans-serif;
+   font-size: 30px;
+   font-weight: 800;
+   text-align: center;
+}
+
+h2 {
+   color: white;
+   font-size: 30px;
+   font-weight: 100;
+   text-align: center;
+}
+
+a {
+text-decoration: none;
+color: rgb(12, 35, 150);
+font-weight: bold;
+text-align: center;
+}
+a:hover {
+	color: black;
+}
+
+/* Custom design with class*/
+ @media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.img-bordered {
+	display: block;
+	width: 300px;
+	height: 200px;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+#mypicture {
+	border-radius: 50%;
+	border: 2px solid black;
+	display: block;
+	width: 100px;
+	height: 130px;
+	margin-left: auto; 
+	margin-right: auto;
+}
+#tennis {
+	background: #B66B56;
+}
+#Travel {
+	background: #B66B56;
+}
+#guitar {
+	background: rgb(242, 179, 70);
+}
+#socialmedia {
+	background: rgb(242, 179, 70);
+
+}
+
+.card{
+	padding: 40px;
+	box-shadow: 2px 2px 3px black;
+	border-radius: 4px;
+	margin: 50px;
+
+}
+#presentation {
+    margin: 80px;
+	border: 2px solid black;
+	box-shadow: 2px 2px 3px black;
+	background: rgb(242, 179, 150);
+}
+
+.btn-blue{
+	background-color: rgb(12, 35, 150); 
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.list-inline li {
+	padding: 10px;
+	text-align: center;
+}
+.list-inline i {
+	font-size: 50px;
+	color: black ;
+}
+
+#presentation p{
+	margin-bottom: 30px;
+}
